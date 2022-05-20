@@ -30,18 +30,27 @@
 \usepackage[english,russian]{babel}
 \usepackage[T2A]{fontenc}
 \usepackage[left=0.40in,top=0.3in,right=0.75in,bottom=0.1in]{geometry} % Document margins
-\usepackage{fontawesome}
+\usepackage{fontawesome5}
 \usepackage{times}
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
 % \begin{center}
 % {\centerline {\em \textbf {Seeking for a fulltime internship from Sep 2019 - Apr 2010(8 months) } } }
 % \end{center}
 \name{Максим Поздняков} % Your name 
-
+\address{+79122883220, Санкт-Петербург}
 
 %\address{123 Pleasant Lane \\ City, State 12345} % Your secondary addess (optional)
-\address{\faGithub{ github.com/CakeOrRiot} \faEnvelope{ pozdnyakovmaks99@mail.ru}}
+\address{\faGithub \ {\href {https://github.com/CakeOrRiot}{GitHub}} \faEnvelope \ {\href {mailto::pozdnyakovmaks99@mail.ru}{email}} \faTelegram \ {\href{https://t.me/CakeOrRiot}{Telegram}}}
 
 \begin{document}
 % {\centerline {\em \textbf { Targeting a 4-month, full-time internship position from 2012.01-2012.05(delete it if needed) } } }
@@ -49,12 +58,12 @@
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{Образование}
+\begin{rSection}{Education}
 
-{\bf Уральский Федеральный университет, Екатеринбург } \hfill {\em сентябрь 2017 - июнь 2021} 
+{\bf Уральский Федеральный университет, Екатеринбург } \hfill {\em 2017 -  2021} 
 \\{ \textit { Бакалавриат. Направление: математика  }} 
 
-{\bf Высшая школа экономики, Санкт-Петербург } \hfill {\em сентябрь 2021 - настоящее время} 
+{\bf Высшая школа экономики, Санкт-Петербург } \hfill {\em 2021 - настоящее время} 
 \\ { \textit {Магистратура, Направление: машинное обучение и анализ данных}} \hfill
 %Minor in Linguistics \smallskip \\
 %Member of Eta Kappa Nu \\
@@ -71,11 +80,11 @@
 
 % \end{rSection}
 
-\begin{rSection}{Технологии}
+\begin{rSection}{Навыки}
 
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-\  Python, OpenCV, Pytorch, SQL, C\#, \\
-\end{tabular}
+%\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Python, Jupyter, Pandas, Sklearn, Pytorch, Numpy, Matplotlib, OpenCV, SQL, ClickHouse, Git, Bash, \LaTeX{},  C\#, ASP.NET \\
+% \end{tabular}
 
 \end{rSection}
 
@@ -87,9 +96,11 @@
 %-----------------------------------------------------------------------------------------------
 \begin{rSection}{Проекты}
 
-{\bf Проект по оцифровке архивных документов, сентябрь-декабрь 2021}
+\item{\bf Проект по оцифровке архивных документов}
 \\-  Проект заключался в том, чтобы по видео перелистывания страниц книги выдать pdf файл страниц этой книги
 \\- Занимался задачами исправления геометрии страницы, выделения границ
+
+{\bf Проект по оцифровке архивных документов, сентябрь-декабрь 2021}
 \end{rSection}
 %----------------------------------------------------------------------------------------
 %	TECHNICAL STRENGTHS SECTION
@@ -101,8 +112,9 @@
 %----------------------------------------------------------------------------------------
 \begin{rSection}{Опыт работы}
 
-{\bf СКБ Контур } \hfill {\em Июль 2021 - Сентябрь 2021} 
-{\textit{стажер Backend-разработчик}}\\
+{\bf СКБ Контур } \hfill {\em Июль 2021 - Сентябрь 2021} \\
+{\textit{C\# Backend-разработчик}}\\
+- Решал задачу по улучшению персонализации реклами на сайте \href{https://www.buhonline.ru/}{Бухонлайн}
 
 % \\- xx
 % \\- xx
@@ -114,11 +126,16 @@
 
 
 \end{rSection}
-\begin{rSection}{Языки}
-- Русский, носитель языка\\
-- Английский, Upper Intermediate\\
 
+
+\begin{rSection}{Достижения}
+\item Участник полуфинала командного чемпионата мира по программированию ICPC 2019 г.
 \end{rSection}
+% \begin{rSection}{Языки}
+% - Русский, носитель языка\\
+% - Английский, Upper Intermediate\\
+
+% \end{rSection}
 
 %	EXAMPLE SECTION
 %----------------------------------------------------------------------------------------
